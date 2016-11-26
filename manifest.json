@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Alt right to Neo Nazi",
+    "version": "1.0",
+    "description": "self-explanatory",
+    "content_scripts": 
+    [
+        {
+            "matches": ["*://*/*"], 
+            "js": ["content.js"],
+            "run_at": "document_end"  
+        }
+    ]
+}
